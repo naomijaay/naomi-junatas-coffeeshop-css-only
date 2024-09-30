@@ -1,0 +1,243 @@
+
+
+
+
+.container1 {
+    background-color: #FFF0ED;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+   
+}
+
+.container1--left {
+    word-wrap: break-word;
+    max-width: 350px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container1--left__title {
+    margin: 0;
+}
+
+.container1__inner-button { 
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+}
+
+.container2__inner-button { 
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+}
+
+.container3__inner-button { 
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+}
+
+
+.price {
+    color: #5BACC3;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.pack-size {
+    color: #909090;
+    font-size: 1rem;
+}
+
+.pack-size, .price, h3 {
+    text-align: left;
+    margin-left: 0;
+    justify-content: flex-start;
+    margin: 0.5rem;
+}
+
+#container1--left__button-text, #container3--left__button-text, #container4--left__button-text {
+    background-color: #5BACC3;
+    border: none;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+h1, h2 {
+    font-weight: lighter;
+    font-size: 3.75rem;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 2.06rem;
+}
+
+.container2 {
+    text-align: center;
+    background-color: #f7f7f7;
+    
+}
+
+.container2--product {
+    display: inline-block; /* allows images to sit next to each other horizontally */
+    vertical-align: top; /* controls how elements align vertically*/
+    width: 20.625rem; 
+    height: 27.5rem;
+    margin: 1.25rem;
+    text-align: center;
+    padding-left: 1rem;
+    border-radius: 0.625rem; /*rounds corners of element */
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+        /*adds a shadow behind each element, giving depth and elevation.
+        0 is the horizontal offset (no horizontal shift
+        5px is the vertical offset, pushing shadow down
+        9px is the blur radius, determining how soft the shadow's edges are
+        -1px is the spread radius, shrinking shadow's size
+        rgba(0, 0, 0, 0.25) defines color of shadow as a semi-transaprent black with 25% opacity */
+    background-color: white;
+}
+
+.container2--product__image {
+    height: 13rem;
+    padding-top: 2rem;
+}
+
+.container2--product__info {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.container2 h2 {
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+
+.container4--left__button {
+    background-color: #f7f7f7;
+    padding-bottom: 2.5rem;
+    padding-top: 1.25rem;
+    text-align: center;
+}
+
+
+.container3 {
+    background-color: #FFF;
+    padding: 0 5rem;
+    margin-top: 5rem;
+
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    width: 100%; 
+}
+
+.container3--left {
+    word-wrap: break-word;
+    max-width: 430px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.container3--left__title {
+    margin: 0;
+}
+
+.container3--left__image {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.container3--left__image__type {
+    width: 10%;
+    height: auto;
+    margin: 0 52px;
+}
+
+#container3--left__button-text {
+    margin-top: 2rem;
+}
+
+#container2--right {
+    background-image: url("../assets/coldbrewbackground.png");
+    border: none;
+    color: white;
+    padding: 4rem 7rem;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    background-size: 150%; /* Zoom out by setting the size larger than 100% */
+    background-repeat: no-repeat;
+}
+
+.container2--right__image-inner {
+    border: 5px solid #5BACC3;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -16px;
+    left: -16px;
+}
+
+.container4 {
+    background-color: #393939;
+    color: white;
+    text-align: center;
+    font-size: 2.813rem;
+    line-height: 1.25rem;
+    width: 90%;
+    height: 6rem;
+    padding-top: 0.20rem;
+    padding-bottom: 0.20rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container5 {
+    background-color: #FFF0ED;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.container5__socials--image__type {
+    width: 3.125rem;
+}
+
+
+
+.container5__address, .container5__hours, .container5__socials {
+    width: calc(33.33% - 2.5rem);
+}
+
+/* calc(33.33% - 2.5rem) allows you to calculate dimensions dynamically by combining different units
+33.33%: sets the base width of each element to one-third (33.33%) of its parent container's width.
+If .address, .hours, and .socials are part of a three-column layout, each one would take up 1/3 of total space.
+- 2.5rem: This subtracts 2.5rem from that one-third width. To account for margins, or spacing between the columns */

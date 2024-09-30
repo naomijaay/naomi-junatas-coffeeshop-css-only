@@ -1,0 +1,122 @@
+
+
+body {
+    background-color: #FFF0ED;
+    padding-bottom: 2rem;
+}
+
+.menu {
+    height: 43.75rem;
+    background-image: url("../assets/coffee-circle.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35rem;
+    position: relative;
+}
+
+.menu__title {
+    background-color: #393939;
+    padding: 4rem 4rem;
+    color: white;
+}
+
+.menu__title--inner {
+    border: 4px solid #5BACC3;
+    height: 13.3rem;
+    width: 18.7rem;
+    position: absolute;
+    top: 48%; /* Adjusts the vertical position */
+    left: 49%; /* Adjusts the horizontal position */
+    transform: translate(-48%, -49%); /* Centers the box over the menu */
+}
+
+
+.menu__nav {
+    background-color: #393939;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.menu__nav__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__nav__list li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu__nav__list li {
+    display: inline-block; 
+    margin-right: 1.25rem;
+    border-left: 0.25rem solid #5BACC3;
+    padding-left: 1.25rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu--option2__content {
+    background-color: #F7F7F7;
+    padding-bottom: 2rem;
+}
+
+
+.menu--option1, .menu--option2 {
+    background-color: #FFF0ED;
+    text-align: center;
+}
+
+.menu--option1, .menu--option2 p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.menu--option1 h3 {
+    margin-bottom: 0.5rem;
+}
+
+.menu--option1 p:not(.menu--price) {
+    margin-bottom: 1.5rem;
+}
+
+.menu--option1 .menu--price {
+    margin-top: 1rem;
+}
+
+.menu--option2 {
+    background-color: #F7F7F7;
+}
+
+.menu--option1 p:not(.menu--price), .menu--option2 p:not(.menu--price) {
+    font-weight: 400;
+    font-size: 1.125rem; 
+    font-style: italic;
+}
+
+.menu--price {
+    color: #5BACC3;
+}
+
+
+h1, h2 {
+    font-size: 3.75rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2.063rem;
+    font-weight: 300;
+}
+
